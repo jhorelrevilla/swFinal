@@ -24,6 +24,12 @@
   <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
   <![endif]-->
 </head>
+<script>
+public function displayForm(Request $request)
+{
+     return view('pay', ['fee' => $request->fee]);
+}
+</script>
 <body class="hold-transition login-page">
 <div class="login-box">
   <div class="login-logo">
@@ -31,7 +37,7 @@
   </div>
   <!-- /.login-logo -->
   <div class="login-box-body">
-    <p class="login-box-msg">Sign in to start your session</p>
+    
 
     <form action="index2.html" method="post">
       <div class="form-group has-feedback">
@@ -49,9 +55,11 @@
           </div>
         </div>
         <!-- /.col -->
-        <div class="col-xs-4">
-          <button type="submit" class="btn btn-primary btn-block btn-flat">Sign In</button>
-        </div>
+        
+          <button type="submit" class="btn btn-primary btn-block btn-flat">Registrarse</button>
+        
+          <button type="submit" class="btn btn-primary btn-block btn-flat">Iniciar Sesion</button>
+        
         <!-- /.col -->
       </div>
     </form>
