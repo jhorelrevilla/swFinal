@@ -28,7 +28,6 @@
 <body class="hold-transition skin-purple sidebar-mini">
 <!-- Site wrapper -->
 <div class="wrapper">
-
   <header class="main-header">
     <!-- Logo -->
     <a href="index2.html" class="logo">
@@ -46,7 +45,6 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </a>
-
       <div class="navbar-custom-menu">
         <ul class="nav navbar-nav">
           <!-- User Account: style can be found in dropdown.less -->
@@ -59,7 +57,6 @@
               <!-- User image -->
               <li class="user-header">
                 <img src="dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
-
                 <p>
                   Alexander Pierce - Web Developer
                   <small>Member since Nov. 2012</small>
@@ -72,10 +69,6 @@
                 </div>
               </li>
             </ul>
-          </li>
-          <!-- Control Sidebar Toggle Button -->
-          <li>
-            <a href="#" data-toggle="control-sidebar"><i class="fa fa-gears"></i></a>
           </li>
         </ul>
       </div>

@@ -29,7 +29,7 @@
 <!-- Site wrapper -->
 <div class="wrapper">
 
-<header class="main-header">
+    <header class="main-header">
     <!-- Logo -->
     <a href="index2.html" class="logo">
       <!-- mini logo for sidebar mini 50x50 pixels -->
@@ -101,19 +101,10 @@
             <path d="M9 1H4a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V8h-1v5a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V3a1 1 0 0 1 1-1h5V1z"/>
             <path fill-rule="evenodd" d="M15.854 2.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 0 1 .708-.708L12.5 4.793l2.646-2.647a.5.5 0 0 1 .708 0z"/>
           </svg> 
-          <span> Generar Pregunta</span>  
+          <span> Examenes pendientes</span>  
           </a>
         </li>
-        <li class="treeview">
-          <a href="#">
-          <svg class="bi bi-pencil-square" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-  <path d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456l-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z"/>
-  <path fill-rule="evenodd" d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5v11z"/>
-</svg> 
-            <span>Generar Examen</span>
-            
-          </a>
-        </li>
+        
       </ul>
     </section>
     <!-- /.sidebar -->
@@ -123,62 +114,17 @@
 
   <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">
-    <!-- Content Header (Page header) -->
-    <section class="content-header">
-      <h1>
-        Generar preguntas
-      </h1>
-    </section>
-
     <!-- Main content -->
     <section class="content">
-
       <!-- Default box -->
       <div class="box">
         <div class="box-header with-border">
-          <h3 class="box-title">Crear una pregunta</h3>
+          <h3 class="box-title">Bienvenido</h3>
         </div>
         <div class="box-body">
-
-          <form action="#" method="post">
-            <div class="input-group">
-
-              <!----------------------------------------------------------------->
-              <div>Tema de la pregunta</div>
-              <input type="text" name="Tema"  class="form-control">
-              &nbsp;
-              <!----------------------------------------------------------------->
-              <div>La pregunta se resolvera en  </div>
-              <input type="radio" name="Presolver" value="php"> Computadora</br>
-              <input type="radio" name="Presolver" value="php"> Escrito</br>
-              &nbsp;
-              <!----------------------------------------------------------------->
-              <div>Duracion </div>  
-              <div>
-              Minutos
-              <input type="number" id="quantity" name="Minutos" min="1" max="10">
-              </div>
-              &nbsp;
-              <!----------------------------------------------------------------->
-              <div>Tipo de pregunta </div>
-              <select name="Tipo" id="pregunta">
-                <option value="Tipo1">Desarrollo largo</option>
-                <option value="Tipo2">Desarrollo corto</option>
-                <option value="Tipo3">Alternativas multiples</option>
-                <option value="Tipo4">Verdadero/Falso</option>
-                <option value="Tipo5">Emparejar</option>
-              </select>
-              <div>&nbsp;</div>
-                <button type="button" class="btn btn-secondary">Plantear Pregunta</button>
-              <!----------------------------------------------------------------->
-                
-            </div>
-          </form>
-
+          
         </div>
       </div>
-      <!-- /.box -->
-
     </section>
     <!-- /.content -->
   </div>
@@ -199,12 +145,6 @@
           <li>
             <a href="javascript:void(0)">
               <i class="menu-icon fa fa-birthday-cake bg-red"></i>
-
-              <div class="menu-info">
-                <h4 class="control-sidebar-subheading">Langdon's Birthday</h4>
-
-                <p>Will be 23 on April 24th</p>
-              </div>
             </a>
           </li>
           <li>

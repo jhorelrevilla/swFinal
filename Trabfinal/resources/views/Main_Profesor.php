@@ -29,7 +29,7 @@
 <!-- Site wrapper -->
 <div class="wrapper">
 
-<header class="main-header">
+    <header class="main-header">
     <!-- Logo -->
     <a href="index2.html" class="logo">
       <!-- mini logo for sidebar mini 50x50 pixels -->
@@ -123,62 +123,17 @@
 
   <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">
-    <!-- Content Header (Page header) -->
-    <section class="content-header">
-      <h1>
-        Generar preguntas
-      </h1>
-    </section>
-
     <!-- Main content -->
     <section class="content">
-
       <!-- Default box -->
       <div class="box">
         <div class="box-header with-border">
-          <h3 class="box-title">Crear una pregunta</h3>
+          <h3 class="box-title">Bienvenido</h3>
         </div>
         <div class="box-body">
-
-          <form action="#" method="post">
-            <div class="input-group">
-
-              <!----------------------------------------------------------------->
-              <div>Tema de la pregunta</div>
-              <input type="text" name="Tema"  class="form-control">
-              &nbsp;
-              <!----------------------------------------------------------------->
-              <div>La pregunta se resolvera en  </div>
-              <input type="radio" name="Presolver" value="php"> Computadora</br>
-              <input type="radio" name="Presolver" value="php"> Escrito</br>
-              &nbsp;
-              <!----------------------------------------------------------------->
-              <div>Duracion </div>  
-              <div>
-              Minutos
-              <input type="number" id="quantity" name="Minutos" min="1" max="10">
-              </div>
-              &nbsp;
-              <!----------------------------------------------------------------->
-              <div>Tipo de pregunta </div>
-              <select name="Tipo" id="pregunta">
-                <option value="Tipo1">Desarrollo largo</option>
-                <option value="Tipo2">Desarrollo corto</option>
-                <option value="Tipo3">Alternativas multiples</option>
-                <option value="Tipo4">Verdadero/Falso</option>
-                <option value="Tipo5">Emparejar</option>
-              </select>
-              <div>&nbsp;</div>
-                <button type="button" class="btn btn-secondary">Plantear Pregunta</button>
-              <!----------------------------------------------------------------->
-                
-            </div>
-          </form>
-
+          
         </div>
       </div>
-      <!-- /.box -->
-
     </section>
     <!-- /.content -->
   </div>

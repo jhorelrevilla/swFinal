@@ -13,20 +13,23 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-//Pre_Alternativa_Multiple ;
-//Pre_Desarrollo_Corto  ;
-//Pre_Desarrollo_Largo  ;
+//Pre_Alternativa_Multiple
+//Pre_Desarrollo_Corto
+//Pre_Desarrollo_Largo
 //Pre_Emparejar
 //Pre_Verdadero_Falso
 //Gen_Examen
 //Gen_Preguntas
 
+//-----------------------
+//Main_Profesor
+//Main_Alumno
 Route::get('/', function () {
-    return view('login');
+    return view('Main_Alumno');
 });
 
 Route::get('generar_pregunta', function () {
-    return view('Gen_Preguntas');
+    return view('Pre_Verdadero_Falso');
 });
 Route::get('pregunta_desarrollo_largo', function () {
     return view('Pre_Desarrollo_Largo');
