@@ -151,13 +151,9 @@
               <div><small>Marque la respuesta</small>  </div>
               <input type="radio" name="Respuesta1" value="php"> Verdadero</br>
               <input type="radio" name="Respuesta2" value="php"> Falso</br>
-              &nbsp;
+       
               <!----------------------------------------------------------------->
-              <div>Valor de la pregunta</div>  
-              <div>
-              <input type="number" id="quantity" name="Minutos" min="1" max="20">
-              </div>
-              <!----------------------------------------------------------------->
+       
               <div>&nbsp;</div>
                 <button type="button" class="btn btn-secondary">Plantear Pregunta</button>
               <!----------------------------------------------------------------->
