@@ -160,10 +160,16 @@
               </div>
               &nbsp;
               <!----------------------------------------------------------------->
+               <div>Valor de la pregunta</div>  
+              <div>
+              <input type="number" id="quantity" name="Minutos" min="1" max="20">
+              </div>
+              <div>&nbsp;</div>
+              <!----------------------------------------------------------------->
               <div>Tipo de pregunta </div>
               <select name="Tipo" id="pregunta">
                 <option value="Tipo1">Desarrollo largo</option>
-                <option value="Tipo2">Desarrollo corto</option>
+                <option value=<!----------------------------------------------------------------->"Tipo2">Desarrollo corto</option>
                 <option value="Tipo3">Alternativas multiples</option>
                 <option value="Tipo4">Verdadero/Falso</option>
                 <option value="Tipo5">Emparejar</option>
