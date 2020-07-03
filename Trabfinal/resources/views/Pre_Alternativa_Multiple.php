@@ -153,7 +153,7 @@
               <div><small>Solo marque la solucion</small>  </div>
               
               <textarea id="Respuesta1" rows="1" cols="50"></textarea>
-              <input type="radio" name="" value="php"></br>
+              <input type="radio" name="Presolver" value="php"></br>
               <!---->
               <textarea id="Respuesta2" rows="1" cols="50"></textarea>
               <input type="radio" name="Presolver" value="php"></br>
