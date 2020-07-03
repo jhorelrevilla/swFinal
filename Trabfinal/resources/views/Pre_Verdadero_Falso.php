@@ -149,8 +149,8 @@
               <div>&nbsp;</di>
               <!----------------------------------------------------------------->
               <div><small>Marque la respuesta</small>  </div>
-              <input type="radio" name="Respuesta1" value="php"> Verdadero</br>
-              <input type="radio" name="Respuesta2" value="php"> Falso</br>
+              <input type="radio" name="Respuesta" value="php"> Verdadero</br>
+              <input type="radio" name="Respuesta" value="php"> Falso</br>
        
               <!----------------------------------------------------------------->
        
